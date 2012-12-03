@@ -1,4 +1,5 @@
 class ZombiesController < ApplicationController
+
   # GET /zombies
   # GET /zombies.json
   def index

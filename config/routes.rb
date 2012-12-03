@@ -1,5 +1,8 @@
 RailsForZombies::Application.routes.draw do
-  resources :zombies
+  
+  resources :zombies do
+    resources :tweets
+  end
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
